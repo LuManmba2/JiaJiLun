@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <!--事项输入框box1-->
+    <div id="box1">
+        <label id="headline" for="title">SpongeBob ToDoList</label>
+        <!--logo-->
+        <div id="logo-pic">
+            <img src="pic/7.png" style="height: 100%;width: 100%;"/>
+        </div>
+        <!--事项输入框-->
+        <form id="form" name="myForm">
+            <input id="hiddenText" type="text" style="display:none"/>
+            <div id="input">    
+                <input type="text" placeholder="添加待办" id="title" required="required"> 
+            </div>
+        </form>
+    </div>
+    <div class="mini-logo">
+        <img src="pic/8.png" class="mini-logo">
+        <p>待办事件</p>
+        <p>todolist</p>
+        <p onclick="clearAll1()">全部删除</p>
+        <div class="counter" ><span id="todocont">0</span></div>
+    </div>
+    <!--unfinished-->
+    <div id="unfinished" class="list">
+        <ul id="todolist">
+
+        </ul>
+    </div>
+    <div class="mini-logo">
+        <img src="pic/9.png" class="mini-logo">
+        <p>已经完成</p>
+        <p>donelist</p>
+        <p onclick="clearAll2()">全部删除</p>
+        <div class="counter" ><span id="donecont">0</span></div>
+    </div>
+    <!--finished-->
+    <div id="finished" class="list">
+        <ol id="donelist">
+            
+        </ol>
+        
+    </div>
+    <script src="demo4.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(149, 168, 207);
+    background-size: 100%;
+}
+/*box1*/
+div#box1{
+    width: 35%;
+    text-align: center;
+    padding-top: 50px;
+    background: white;
+    border-radius: 30px;
+    float: left;
+    border: 20px solid rgb(149, 168, 207);
+}
+label#headline{
+    font-size: 37px;
+    font-weight: bold;
+}
+div#logo-pic{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+input#title{
+    width: 70%;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 20px 5px rgb(94, 93, 93);
+}
+/* unfinished */
+div.list{
+    float: left;
+    width: 700px;
+    height: 250px;
+    color: rgb(59, 44, 31);
+    margin-left: 17px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border:rgb(241, 194, 160) solid 8px;
+    background: seashell;
+    overflow:scroll;
+}
+div.mini-logo{
+    height: 285px;
+    width: 80px;
+    float: left;
+    font-weight: bold ;
+    font: 30px;
+    text-align: center;
+    margin-top: 35px;
+    color: rgb(134, 101, 75);
+}
+div.mini-logo p{
+    box-shadow: 0px 0px 2px 2px rgb(134, 101, 75);
+}
+img.mini-logo{
+    border-radius: 50%;
+    opacity: 0.8;
+    width: 75%;
+}
+img.mini-logo:hover{
+    opacity: 100%;
+}
+div.counter{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-left: 23px;
+    border-radius: 50%;
+    border: 2px solid rgb(134, 101, 75);
+    text-align: center;
+    box-shadow: 0 0 3px 2px rgb(134, 101, 75);
+}
+button.deletbut{
+    border-radius: 50%;
+    width: 10px;
+    height: 15px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    background:rgb(78, 77, 76);
+}
+li.li{
+    background: rgb(215, 208, 230);
+    width: 640px;
+    border-radius: 10px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+input.new{
+    background: rgb(215, 208, 230);
+    width: 630px;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
